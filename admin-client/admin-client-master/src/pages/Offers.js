@@ -1,3 +1,4 @@
+
 // src/pages/Offers.jsx
 import React, { useEffect, useState, useMemo } from "react";
 import Navbar from "../components/Navbar";
