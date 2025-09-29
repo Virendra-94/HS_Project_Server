@@ -10,11 +10,8 @@ app.use(express.json());
 
 // Allowed origins (frontend URLs)
 const allowedOrigins = [
-  "https://client-q5dl.onrender.com",
-  "https://admin-client-wbes.onrender.com",
   "https://hs-admin-client.onrender.com",
   "http://localhost:3000", 
-  "http://localhost:3001"
 ];
 
 // Simplified CORS middleware
