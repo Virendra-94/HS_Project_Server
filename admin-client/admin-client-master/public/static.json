@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "/**": {
+      "Cache-Control": "no-cache"
+    }
+  },
+  "rewrites": [{
+    "source": "**",
+    "destination": "/index.html"
+  }]
+}
+
