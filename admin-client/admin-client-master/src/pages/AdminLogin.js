@@ -12,7 +12,7 @@ export default function AdminLogin() {
     e.preventDefault();
     setError("");
     try {
-      const res = await axios.post("https://hs-project-server.onrender.com/api/admin/login", { email, password }
+      const res = await axios.post("https://hs-project-server-grvr.onrender.com/api/admin/login", { email, password }
       );
       if (res.data.isAdmin) {
         localStorage.setItem("token", res.data.token);
